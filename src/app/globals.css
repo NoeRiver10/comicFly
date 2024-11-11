@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  background-color: #1565c0;
+  color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  position: relative;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.logoImage {
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.siteTitle {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #ededed;
+  margin: 0;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.postsList {
+  display: grid;
+  gap: 20px;
+}
+
+.postCard {
+  background-color: #d32f2f;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s;
+  text-decoration: none;
+}
+
+.postCard:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #1565c0;
+  color: #fff;
+  border-radius: 10px;
+}
