@@ -17,11 +17,19 @@
 body {
   color: var(--foreground);
   background: var(--background);
+<<<<<<< HEAD
   font-family: 'Arial', sans-serif;
 }
 
 .container {
   font-family: 'Arial', sans-serif;
+=======
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+>>>>>>> 51fbb30fbfffbc841da5c64b22f40b6b1c3ac7e4
   background-color: var(--background);
   color: var(--foreground);
   max-width: 1000px;
@@ -52,14 +60,23 @@ body {
 }
 
 .siteTitle {
+<<<<<<< HEAD
   font-size: 2.5rem;
+=======
+  font-size: 3rem;
+>>>>>>> 51fbb30fbfffbc841da5c64b22f40b6b1c3ac7e4
   font-weight: bold;
   margin: 0;
   color: #fff;
 }
 
 .tagline {
+<<<<<<< HEAD
   font-size: 1rem;
+=======
+  font-size: 1.2rem;
+  font-style: italic;
+>>>>>>> 51fbb30fbfffbc841da5c64b22f40b6b1c3ac7e4
   color: #ededed;
   margin: 0;
 }
@@ -94,6 +111,7 @@ body {
   color: #fff;
   border-radius: 10px;
 }
+<<<<<<< HEAD
 
 @media (max-width: 768px) {
   .container {
@@ -120,3 +138,5 @@ body {
     padding: 15px;
   }
 }
+=======
+>>>>>>> 51fbb30fbfffbc841da5c64b22f40b6b1c3ac7e4
